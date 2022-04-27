@@ -1,0 +1,43 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    width: 200px;
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.retweet {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-left: 5px;
+    }
+}
+
+.container {
+    height: 405px;
+    width: 425px;
+    background: linear-gradient(135deg, #ffcb05 0%, #2a75bb 100%);
+    border-radius: 15px;
+    box-shadow: 10px 13px 18px 5px rgb(48 62 75 / 40%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

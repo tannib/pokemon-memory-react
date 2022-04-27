@@ -1,0 +1,60 @@
+.cardFound {
+    margin: 5px;
+    height: 85px;
+    width: 85px;
+    background: rgb(24, 46, 90);
+    color: #ffffff;
+    border-radius: 10px;
+    pointer-events: none;
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgb(46 61 73 / 50%);
+
+    .img {
+        max-width: 90%;
+        max-height: 90%;
+        display: block;
+        animation: magnify 0.15s;
+    }
+}
+
+.cardOpen {
+    margin: 5px;
+    height: 85px;
+    width: 85px;
+    background: rgb(24, 46, 90);
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgb(46 61 73 / 50%);
+
+    .img {
+        max-width: 90%;
+        max-height: 90%;
+        display: block;
+        animation: magnify 0.15s;
+    }
+}
+
+.cardClosed {
+    margin: 5px;
+    height: 85px;
+    width: 85px;
+    background: rgb(24, 46, 90);
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgb(46 61 73 / 50%);
+
+    .img {
+        display: none;
+    }
+}
